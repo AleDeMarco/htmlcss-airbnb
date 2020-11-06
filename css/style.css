@@ -29,6 +29,7 @@ li{
 a{
   text-decoration: none;
   color: rgb(0,16,38);
+  text-align: center;
 }
 
 img.logo{
@@ -57,4 +58,60 @@ img.nav{
 li:hover img.nav{
   display: block;
   opacity: 50%;
+}
+
+
+
+.city{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.bg{
+  height: calc(100vh - 92px);
+  position: relative;
+  z-index: -2;
+}
+
+.bg#gardena{
+  margin-top: 92px;
+}
+
+.offset{
+  position: absolute;
+  bottom: calc(100% + 92px);
+}
+
+#gardena{
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/04/17/56/dolomites-2580866__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#firenze{
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/27/20/28/arno-river-1066307__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#londra{
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/18/11/47/london-eye-945497__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#yosemite{
+  background-image: url(https://cdn.pixabay.com/photo/2016/08/12/23/47/yosemite-1590013__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tokyo{
+  background-image: url(https://cdn.pixabay.com/photo/2017/10/01/13/27/tokyo-2805500__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
