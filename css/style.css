@@ -88,6 +88,27 @@ li:hover img.nav{
   bottom: calc(100% + 92px);
 }
 
+.city-box{
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-box{
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+}
+
+.bg-box#gardena{
+  margin-top: 92px;
+}
+
 /* ID */
 #gardena{
   background-image: url(https://cdn.pixabay.com/photo/2017/08/04/17/56/dolomites-2580866__340.jpg);
